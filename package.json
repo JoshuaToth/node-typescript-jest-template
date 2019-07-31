@@ -1,0 +1,30 @@
+{
+  "name": "node-typescript-jest-template",
+  "version": "0.0.1",
+  "description": "A template for Node using Typescript and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc && node .build/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+JoshuaToth/node-typescript-jest-template.git"
+  },
+  "author": "Joshua Toth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaToth/node-typescript-jest-template/issues"
+  },
+  "homepage": "https://github.com/JoshuaToth/node-typescript-jest-template#readme",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0"
+  }
+}
